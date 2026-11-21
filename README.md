@@ -7,6 +7,7 @@
 | 파일 | 설명 |
 |---|---|
 | `index.html` | 계산기 본체. 데이터까지 들어 있는 단일 파일이라 이것만 있어도 동작합니다. |
+| `og-image.png` | 카카오톡·SNS에 링크를 붙였을 때 보이는 미리보기 이미지(1200×630). |
 | `data/universities.json` | 계산기에 들어 있는 대학·모집단위 데이터 원본(재사용·검수용). |
 | `data/units.csv` | 같은 데이터를 엑셀에서 열 수 있게 펼친 표(952개 모집단위). |
 
@@ -18,6 +19,8 @@
 2. 저장소 화면에서 **Add file → Upload files** → 이 폴더 안의 `index.html`, `README.md`, `data` 폴더를 끌어다 놓고 **Commit changes**.
 3. **Settings → Pages** → Source: `Deploy from a branch`, Branch: `main` / `/(root)` → Save.
 4. 1~2분 뒤 `https://<GitHub아이디>.github.io/jeongsi-calculator-2027/` 주소로 열립니다.
+5. **링크 미리보기 설정**: 저장소에서 `index.html` → 연필(Edit) 아이콘 → 위쪽 `YOUR-GITHUB-ID` 두 군데를 본인 GitHub 아이디로 바꾸고 Commit. 저장소 이름을 바꿨다면 `jeongsi-calculator-2027` 부분도 맞춰 주세요.
+6. 카카오톡에 이미 예전 미리보기가 캐시됐다면 [카카오 공유 디버거](https://developers.kakao.com/tool/debugger/sharing)에서 주소를 넣고 캐시를 초기화하면 새 이미지가 보입니다. 페이스북은 [공유 디버거](https://developers.facebook.com/tools/debug/)에서 같은 방법으로 갱신합니다.
 
 ## 데이터 출처 (대학별 2026 결과 수록 현황)
 
